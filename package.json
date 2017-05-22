@@ -1,0 +1,35 @@
+{
+  "name": "ckeditor-loader",
+  "version": "0.0.1",
+  "description": "A webpack loader to load ckeditor.",
+  "main": "index.js",
+  "repository": "git@github.com:gsmlg/ckeditor-loader.git",
+  "author": "gsmlg <gsmlg@gsmlg.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "file-loader": "^0.11.1",
+    "jquery": "^3.2.1",
+    "postcss-loader": "^2.0.5",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "ckeditor": "^4.6.2",
+    "ckeditor-dev": "^4.6.2",
+    "css-loader": "^0.28.2",
+    "loader-utils": "^1.1.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
