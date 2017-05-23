@@ -22,7 +22,8 @@
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.0",
     "url-loader": "^0.5.8",
-    "webpack": "^2.5.1"
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
     "ckeditor": "^4.6.2",
