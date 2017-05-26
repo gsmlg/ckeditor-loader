@@ -1,6 +1,6 @@
 {
   "name": "ckeditor-loader",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A webpack loader to load ckeditor.",
   "main": "index.js",
   "repository": "git@github.com:gsmlg/ckeditor-loader.git",
