@@ -11,11 +11,12 @@ class App extends Component {
 
   componentDidMount() {
     var context = this.refs.editorContext;
-    this.editor = Editor.appendTo(context, {
-      customConfig: '',
-      width: 640,
-      height: 480,
+    this.editor = Editor.replace(context, {
+      width: '640px',
+      height: '480px'
     });
+    console.log(this.editor);
+    window.edit = this.editor;
   }
 
   render() {
@@ -25,7 +26,7 @@ class App extends Component {
           <h1>CKEditor</h1>
         </header>
         <section>
-          <div ref="editorContext" />
+          <div id="context" ref="editorContext" />
         </section>
       </div>
     );

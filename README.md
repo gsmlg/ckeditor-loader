@@ -55,8 +55,10 @@ $(function() {
 
 editor.conf:
 ```javascript
-module.exports = {
-    // TODO: support config ckeditor
+{
+    "plugins": ["link", "table"],
+    "languages": ["zh", "en"],
+    "theme": "moono"
 };
 ```
 
