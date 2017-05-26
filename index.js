@@ -122,9 +122,10 @@ module.exports = function(conf) {
 
   code += pluginLoader(plugins, languages, theme);
 
-  //code += 'CKEDITOR.scriptLoader.load = function(){};';
+  // code += 'CKEDITOR.scriptLoader.load = function(name, cb){ console.log(name); console.log(cb);};';
   code += 'CKEDITOR.dom.document.prototype.appendStyleSheet = function(){};';
   code += 'CKEDITOR.config.contentsCss = null;';
+  code += 'CKEDITOR.config.customConfig = null;';
 
   code += '\nwindow.CKEDITOR = CKEDITOR;\nmodule.exports = CKEDITOR;';
 

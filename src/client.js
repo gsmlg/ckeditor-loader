@@ -15,8 +15,6 @@ class App extends Component {
       width: '640px',
       height: '480px'
     });
-    console.log(this.editor);
-    window.edit = this.editor;
   }
 
   render() {
