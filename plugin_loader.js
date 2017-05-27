@@ -195,6 +195,7 @@ var getPath = function(name, languages, theme) {
       break;
     case "font":
       files.push(join(`${name}/plugin.js`));
+      languages.forEach(lang =>files.push(join(`${name}/lang/${lang}.js`)));
       break;
     case "forms":
       files.push(join(`${name}/plugin.js`));
