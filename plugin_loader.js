@@ -89,6 +89,7 @@ const CKPlugins = [
   "table",
   "tableresize",
   "tabletools",
+  "tableselection",
   "templates",
   "uicolor",
   "uploadfile",
@@ -302,6 +303,9 @@ var getPath = function(name, languages, theme) {
       break;
     case "tabletools":
       files.push(join(`${name}/dialogs/tableCell.js`));
+      break;
+    case "tableselection":
+      files.push(join(`${name}/styles/tableselection.css`));
       break;
     case "templates":
       files.push(join(`${name}/plugin.js`));
